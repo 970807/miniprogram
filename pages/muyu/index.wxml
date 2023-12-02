@@ -1,0 +1,10 @@
+<view class="page-container container">
+  <view class="title">累积功德</view>
+  <view class="count">- {{ count }} -</view>
+  <view class="img-box-wrapper">
+    <view class="img-box" bindtap="onMuyuClick">
+      <view class="{{ ['tips', tipsActive ? 'tips-active' : '' ] }}">功德 +1</view>
+      <image class="{{ ['img', imgActive ? 'img-active' : ''] }}" src="/assets/image/common/muyu.svg" />
+    </view>
+  </view>
+</view>

@@ -1,0 +1,39 @@
+.page-container {
+  padding-top: 80rpx;
+  box-sizing: border-box;
+}
+
+.tools-item {
+  position: relative;
+  margin: 0 auto;
+  width: 680rpx;
+  padding: 25px 0;
+  text-indent: 410rpx;
+  border-radius: 30rpx;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(149, 157, 165, 0.2);
+  box-sizing: border-box;
+}
+
+.tools-item__hover {
+  transform: translateY(-2rpx);
+}
+
+.tools-item .icon {
+  position: absolute;
+  top: -48rpx;
+  left: 50rpx;
+  width: 250rpx;
+  height: 250rpx;
+}
+
+.tools-item .text {
+  font-size: 18px;
+}
+
+.develop-tip {
+  margin-top: 60rpx;
+  color: #ccc;
+  font-size: 14px;
+  text-align: center;
+}

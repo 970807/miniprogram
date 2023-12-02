@@ -1,0 +1,8 @@
+<view class="page-container container">
+  <navigator class="tools-item" hover-class="tools-item__hover" url="/pages/muyu/index">
+    <image class="icon" src="/assets/image/common/muyu.svg" />
+    <text class="text">电子木鱼</text>
+  </navigator>
+
+  <view class="develop-tip">- 更多工具正在开发中 -</view>
+</view>

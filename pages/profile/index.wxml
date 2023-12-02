@@ -1,0 +1,10 @@
+<view class="page-container container">
+  <view class="profile-info-wrapper">
+    <view class="avatar-box">
+      <open-data class="avatar" type="userAvatarUrl" />
+    </view>
+    <view class="nick-name-box">
+      <open-data class="nick-name" type="userNickName" />
+    </view>
+  </view>
+</view>
